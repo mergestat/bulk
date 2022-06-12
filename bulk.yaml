@@ -1,0 +1,6 @@
+repos:
+  githubOrgRepos:
+    - org: mergestat
+
+actions:
+  - command: cat LICENSE
