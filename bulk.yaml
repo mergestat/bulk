@@ -3,4 +3,6 @@ repos:
     - org: mergestat
 
 actions:
-  - command: cat LICENSE
+  # - command: cat LICENSE
+  - command: >-
+      if [[ -f "LICENSE" ]]; then echo ✅; else echo ❌;fi
