@@ -7,7 +7,7 @@ Often, it can be useful to run some action(s) against a grouping of repositories
 
 The `GITHUB_TOKEN` env variable must be set to fetch repositories from a GitHub org or user.
 
-### Check if repo has a `LICENSE` file
+### Check if every repo in an org has a `LICENSE` file
 
 ```yaml
 # bulk.yaml
